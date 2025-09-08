@@ -8,3 +8,48 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 Text Domain: motaphoto
 */
+
+/* POLICE */
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("fonts/SpaceMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== Application ===== */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+code, pre, .mono {
+  font-family: "Space Mono", monospace;
+}
+
+/* Masquer le titre de la page "Accueil" */
+.page .entry-title {
+  display: none;
+}
+
+/* Masquer le titre du site (nom du site) */
+.site-title {
+  display: none;
+}
